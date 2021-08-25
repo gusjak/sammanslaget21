@@ -302,22 +302,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - name: 
+  - name: Jocke
     sentences:
-    - "Den andre verkar ha br\xE5ttom. Men om du vill inte stanna ute hela natten.
-      Personen \xE4r p\xE5 v\xE4g \xE5t andra h\xE5llet men du g\xE5r snabbt fram
-      till honom.\r\n\r\n"
-  - name: 'Du:'
+    - "Vad g\xF6r du?"
+  - name: Stenmark
     sentences:
-    - "Urs\xE4kta, hall\xE5? \r\nSkulle jag kunna f\xE5 l\xE5na din mobiltelefon?\r\n"
-  - name: 
+    - Not Much sj?
+  - name: Jocke
     sentences:
-    - "Inget svar. Mannen tittar ist\xE4llet ner i marken och \xF6kar farten p\xE5
-      sina steg n\xE4r han m\xE4rker att du s\xF6ker kontakt. \n"
-    - "Du ropar efter honom men han v\xE4nder sig inte om. Han lyfter ist\xE4llet
-      handen f\xF6r att h\xE5lla h\xE5rdare om sin v\xE4ska, och skyndar iv\xE4g.
-      \r"
-  nextScene: Scene1
+    - Till Scene 4 bad
+  nextScene: Scene4_Bad
 --- !u!4 &881474034
 Transform:
   m_ObjectHideFlags: 0
@@ -430,6 +424,21 @@ PrefabInstance:
     - target: {fileID: 1337192474535958031, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192474551940104, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_text
+      value: "Inget svar. Mannen tittar ist\xE4llet ner i marken och \xF6kar farten
+        p\xE5 sina steg n\xE4r han m\xE4rker att du s\xF6ker kontakt. Du ropar efter
+        honom men han v\xE4nder sig inte om. Han lyfter ist\xE4llet handen f\xF6r
+        att h\xE5lla h\xE5rdare om sin v\xE4ska, och skyndar iv\xE4g. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475653777467, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_text
+      value: 'Du:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475653777469, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
