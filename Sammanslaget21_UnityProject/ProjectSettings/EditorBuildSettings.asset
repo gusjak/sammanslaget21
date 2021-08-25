@@ -6,12 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/JockesTestScene.unity
-    guid: d1a770b662eeefe448fd5fa4a8b3dc2d
+    path: Assets/Scenes/Scene1.unity
+    guid: 7018e732992076c449b4feb5b7076c90
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/TheLastScene.unity
+    path: Assets/Scenes/Scene2TheDecision.unity
+    guid: e4fc7bb245451474b89e03fdf958168f
+  - enabled: 1
+    path: Assets/Scenes/Scene3.unity
+    guid: 8970cc9c498ae5846b45a31dc497f7be
+  - enabled: 1
+    path: Assets/Scenes/Scene3_Bad.unity
+    guid: 398bdafc8a027b1448eabbfd80f46af7
+  - enabled: 1
+    path: Assets/Scenes/Scene4.unity
+    guid: febc4b605c56ca84ea1d84f5dbb3fc5e
+  - enabled: 1
+    path: Assets/Scenes/Scene4_Bad.unity
+    guid: ecb7a6fbba3b49644bf4754505bc034c
+  - enabled: 1
+    path: Assets/Scenes/TheLastScene.unity
     guid: c003e6a9de42c3d458c6231a83bf577a
-  - enabled: 1
-    path: Assets/Scenes/TestingScenes/TheNextScene.unity
-    guid: 579b4a2f3074aa4418b0ea6a7f3a05fa
   m_configObjects: {}

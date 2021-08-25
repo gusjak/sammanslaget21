@@ -40,6 +40,12 @@ public class SceneDialogueManager : MonoBehaviour
 
     }
 
+    public void DecideNewScene(string newScene)
+    {
+        SceneManager.LoadScene(newScene);
+
+    }
+
     private void OnDestroy()
     {
         DialogueSystem.OnFinish -= DialogueSystem_OnFinish;
