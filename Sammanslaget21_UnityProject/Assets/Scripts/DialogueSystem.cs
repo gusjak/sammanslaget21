@@ -8,7 +8,11 @@ using TMPro;
 
 public class DialogueSystem : MonoBehaviour
 {
+
     public static DialogueSystem instance;
+
+    public delegate void DialogueFinished();
+    public static event DialogueFinished OnFinish;
 
     //Add queue variable
     private Queue<string> sentences;
@@ -32,6 +36,7 @@ public class DialogueSystem : MonoBehaviour
         dialogues = new Queue<Monologue>();
 
         sentences.Enqueue("if you read this something went wrong");
+
     }
 
     void Start()
@@ -42,6 +47,7 @@ public class DialogueSystem : MonoBehaviour
     
     public void StartDialogue(List<Monologue> newDialogues)
     {
+
         print("Starting New Dialogue");
         
 
@@ -97,8 +103,7 @@ public class DialogueSystem : MonoBehaviour
             if (dialogues.Count == 0)
             {
                 print("All Dialogues done");
-
-  
+                OnFinish();
                 return;
             }
 
