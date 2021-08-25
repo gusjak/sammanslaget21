@@ -304,11 +304,7 @@ MonoBehaviour:
   dialogues:
   - name: Scen
     sentences:
-    - "Det h\xE4r \xE4r sista scenen"
-    - Ha en trevlig dag!
-  - name: Stenmark
-    sentences:
-    - Tack Dessamma
+    - "Tack f\xF6r att ni spelade!"
   nextScene: JockesTestScene
 --- !u!4 &881474034
 Transform:

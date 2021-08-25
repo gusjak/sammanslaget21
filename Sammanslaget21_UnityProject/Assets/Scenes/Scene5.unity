@@ -304,28 +304,24 @@ MonoBehaviour:
   dialogues:
   - name: 
     sentences:
-    - "Du ler mot fr\xE4mlingen. Han har sn\xE4lla \xF6gon. "
+    - "Fr\xE4mlingen b\xF6rjar g\xE5 \xE5t andra h\xE5llet. Gatan \xE4r m\xF6rk,
+      tom och blank. Regnet piskar och du fryser."
   - name: Du
     sentences:
-    - "Vad \xE4r det som h\xE4nt?"
-  - name: "Fr\xE4mling"
-    sentences:
-    - "Jag har gl\xF6mt min ryggs\xE4ck d\xE4r jag hade min mobiltelefon och nycklarna
-      till st\xE4llet d\xE4r jag bor. "
-  - name: Du
-    sentences:
-    - "H\xE4r, du kan l\xE5na min."
+    - "V\xE4nta!"
   - name: 
     sentences:
-    - "Det b\xF6rjar regna. Du r\xE4cker \xF6ver din mobiltelefon till fr\xE4mlingen
-      som tacksamt tar emot den och knappar in ett telefonnummer. Du h\xE5ller ditt
-      paraply \xF6ver er b\xE5da. "
-    - "Fr\xE4mlingen lyckas inte n\xE5 personen han s\xF6ker. Han r\xE4cker tillbaks
-      din mobiltelefon."
-  - name: "Fr\xE4mling"
+    - "Fr\xE4mlingen stannar. Han v\xE4nder sig om."
+  - name: Du
     sentences:
-    - "Tack f\xF6r l\xE5net."
-  nextScene: Scene4
+    - "Vill du f\xF6lja med mig hem och v\xE4rma dig tills du f\xE5r kontakt med
+      din v\xE4n igen? Jag har torra kl\xE4der och te."
+  - name: 
+    sentences:
+    - "Fr\xE4mlingen str\xE4cker fram sin hand och presenterar sig med namn. Tacksamheten
+      som str\xE5lar ur hans \xF6gon \xE4r v\xE4rd allt. Tillsammans l\xE4mnar ni
+      den m\xF6rka gatan och regnet och g\xE5r sida vid sida, hem till v\xE4rmen."
+  nextScene: TheLastScene
 --- !u!4 &881474034
 Transform:
   m_ObjectHideFlags: 0
