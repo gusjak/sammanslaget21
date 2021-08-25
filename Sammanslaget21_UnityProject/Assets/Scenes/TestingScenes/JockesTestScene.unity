@@ -311,6 +311,7 @@ MonoBehaviour:
   - name: Jocke
     sentences:
     - inget, lol
+  nextScene: TheNextScene
 --- !u!4 &881474034
 Transform:
   m_ObjectHideFlags: 0
