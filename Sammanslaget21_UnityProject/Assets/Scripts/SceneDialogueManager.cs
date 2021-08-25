@@ -32,16 +32,12 @@ public class SceneDialogueManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene(nextScene);
-        }
-
-        //if (DialogueSystem.instance.finished)
+        //if (Input.GetKeyDown(KeyCode.Space))
         //{
         //    SceneManager.LoadScene(nextScene);
-
         //}
+
+
     }
 
     private void OnDestroy()
