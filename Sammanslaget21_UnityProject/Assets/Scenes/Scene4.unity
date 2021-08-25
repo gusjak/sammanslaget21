@@ -302,16 +302,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - name: Jocke
+  - name: 
     sentences:
-    - "Vad g\xF6r du?"
-  - name: Stenmark
+    - "Fr\xE4mlingen kliver ifr\xE5n paraplyet och g\xF6r sig redo att ge sig av.
+      Regnet h\xE4ller ner \xF6ver hans tunna kl\xE4der. Du undrar vart han ska ta
+      v\xE4gen i m\xF6rkret och kylan."
+  - name: Du
     sentences:
-    - Not Much sj?
-  - name: Jocke
+    - "Men vad ska du g\xF6ra nu d\xE5?"
+  - name: "Fr\xE4mling"
     sentences:
-    - inget, lol
-  nextScene: 
+    - "Jag f\xE5r st\xE4lla mig under n\xE5got tak tills det ljusnar. Imorgon kommer
+      jag kunna g\xE5 in n\xE5gonstans och v\xE4rma mig. Det \xE4r ingen fara. Tack
+      f\xF6r din hj\xE4lp. God bless!"
+  - name: 
+    sentences:
+    - "Du t\xE4nker p\xE5 ditt varma k\xF6k. P\xE5 de torra kl\xE4derna i din garderob
+      och vet att du inte kommer kunna komma till ro n\xE4r du vet att fr\xE4mlingen
+      ska st\xE5 utomhus ensam, hela natten."
+  nextScene: Scene5
 --- !u!4 &881474034
 Transform:
   m_ObjectHideFlags: 0

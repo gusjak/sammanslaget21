@@ -302,15 +302,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - name: Jocke
+  - name: 
     sentences:
-    - "Vad g\xF6r du?"
-  - name: Stenmark
-    sentences:
-    - Not Much sj?
-  - name: Jocke
-    sentences:
-    - Till the decision
+    - "Det \xE4r en kv\xE4ll i november n\xE4r du \xE4r p\xE5v\xE4g hem fr\xE5n en
+      middag p\xE5 restaurang med dina v\xE4nner. Det har varit en bra kv\xE4ll,
+      du k\xE4nner fortfarande v\xE4rmen av gemenskapen i kroppen. "
+    - "Maten och vinet har gjort dig s\xF6mnig. Vinden f\xF6r med sig en kyla som
+      drar genom dina kl\xE4der."
+    - "Det k\xE4nns b\xE4ttre n\xE4r du t\xE4nker p\xE5 att du bara bor hundra meter
+      bort. Men f\xF6r att komma hem m\xE5ste du g\xE5 via en skum gata. Du g\xE5r
+      snabbt och tittar ner i marken. "
+    - "Titta d\xE4r! En fr\xE4mmande man kommer g\xE5ende mot dig. Fr\xE4mlingen
+      har luvan h\xF6gt dragen \xF6ver huvudet. N\xE4r han kommer n\xE4rmare stannar
+      han till och s\xF6ker kontakt. "
   nextScene: Scene2TheDecision
 --- !u!4 &881474034
 Transform:
@@ -424,6 +428,30 @@ PrefabInstance:
     - target: {fileID: 1337192474535958031, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475379058562, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475379058562, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475379058562, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475885096535, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475885096535, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337192475885096535, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+      propertyPath: m_Color.r
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}

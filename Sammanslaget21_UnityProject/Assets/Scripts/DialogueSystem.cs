@@ -112,6 +112,23 @@ public class DialogueSystem : MonoBehaviour
         }
 
         speechBox.text = sentences.Dequeue();
+        //string sentence = sentences.Dequeue();
+
+        //StopAllCoroutines();
+        //StartCoroutine(sentence);
+
+
+    }
+
+    IEnumerator TypeSentence(string sentence)
+    {
+        speechBox.text = "";
+
+        foreach (char letter in sentence)
+        {
+            speechBox.text += letter;
+            yield return null;
+        }
 
     }
 }
