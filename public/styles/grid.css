@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 40px;
+  grid-column-gap: 30px;
   grid-row-gap: 30px;
   margin-bottom: 20px;
 }
@@ -64,6 +64,7 @@
   -moz-transform: rotateY(-180deg);
   background-color: var(--gray);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -90,9 +91,22 @@
   color: var(--dusk);
 }
 
-/* @media (max-device-width: 1200px) {
+.social-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
 
-} */
+.social-links a {
+  font-size: 20px;
+  color: var(--black);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.social-links a:hover {
+  color: var(--warmth);
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
   only screen and (min-device-pixel-ratio: 1.5),

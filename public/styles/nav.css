@@ -63,7 +63,7 @@ ul {
 
 #page-2 {
   padding-bottom: 5vh;
-  background: rgb(209, 209, 209);
+  background-color: var(--secondary-black);
 }
 
 #home:target .page#page-1 {
