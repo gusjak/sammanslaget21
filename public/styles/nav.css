@@ -37,7 +37,8 @@
 }
 
 .nav-links,
-.nav-links-yrgo {
+.nav-links-yrgo,
+.nav-links-github {
   margin-right: 5rem;
 }
 
@@ -47,6 +48,7 @@ ul {
 
 .nav-links,
 .nav-links-yrgo,
+.nav-links-github,
 .logo {
   text-decoration: none;
   color: #ffffffb3;
@@ -59,6 +61,10 @@ ul {
 
 .nav-links-yrgo:hover {
   color: var(--yrgo);
+}
+
+.nav-links-github:hover {
+  color: #9370d8;
 }
 
 .page {
