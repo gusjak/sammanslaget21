@@ -8,7 +8,9 @@ public class Monologue
 {
     public string name;
 
+    public bool animTrigger;
     [TextArea(3,10)]
     public string[] sentences;
+
 
 }

@@ -12,7 +12,10 @@ public class DialogueSystem : MonoBehaviour
     public static DialogueSystem instance;
 
     public delegate void DialogueFinished();
-    public static event DialogueFinished OnFinish;
+    public static event DialogueFinished OnD_Finish;
+
+    public delegate void MonologueStarted();
+    public static event MonologueStarted OnM_Started;
 
     //Add queue variable
     private Queue<string> sentences;
@@ -73,7 +76,11 @@ public class DialogueSystem : MonoBehaviour
     {
         print("Starting New Monologue");
 
-    
+        if (monologue.animTrigger)
+        {
+            OnM_Started();
+        }
+        
         sentences.Clear();
 
         if (monologue.sentences.Length == 0)
@@ -102,7 +109,7 @@ public class DialogueSystem : MonoBehaviour
             if (dialogues.Count == 0)
             {
                 print("All Dialogues done");
-                OnFinish();
+                OnD_Finish();
                 return;
             }
 

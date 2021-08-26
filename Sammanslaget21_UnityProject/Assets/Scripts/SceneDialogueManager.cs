@@ -16,7 +16,7 @@ public class SceneDialogueManager : MonoBehaviour
 
     void Start()
     {
-        DialogueSystem.OnFinish += DialogueSystem_OnFinish;
+        DialogueSystem.OnD_Finish += DialogueSystem_OnFinish;
         DialogueSystem.instance.StartDialogue(dialogues);
     }
 
@@ -60,7 +60,7 @@ public class SceneDialogueManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        DialogueSystem.OnFinish -= DialogueSystem_OnFinish;
+        DialogueSystem.OnD_Finish -= DialogueSystem_OnFinish;
 
     }
 
