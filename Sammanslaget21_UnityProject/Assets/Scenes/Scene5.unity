@@ -278,7 +278,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: fcfb1745549ff594abbc6989fe3d6b95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c98ece73b789ff74ca12e646ed71d3fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -560,7 +560,7 @@ MonoBehaviour:
       som str\xE5lar ur hans \xF6gon \xE4r v\xE4rd allt. Tillsammans l\xE4mnar ni
       den m\xF6rka gatan och regnet och g\xE5r sida vid sida, hem till v\xE4rmen."
   nextScene: TheLastScene
-  fadeOnFinish: 0
+  fadeOnFinish: 1
 --- !u!4 &881474034
 Transform:
   m_ObjectHideFlags: 0
@@ -575,6 +575,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1504133264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941732, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_Name
+      value: ScreenFader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
 --- !u!1001 &1578125843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -843,7 +900,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 308c3443a07644a4fb1be86b3786cf09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f21b11e5f6b4b7d458ba654f83487245, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

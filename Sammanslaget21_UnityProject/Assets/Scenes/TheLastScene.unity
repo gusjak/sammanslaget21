@@ -330,7 +330,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 88faf46cb53a39e48877d08ec29c6cbe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1205ae48b0fe32544925d4c8e2839eed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -386,6 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - name: Scen
+    animTrigger: 0
     sentences:
     - "Tack f\xF6r att ni spelade!"
   nextScene: JockesTestScene
