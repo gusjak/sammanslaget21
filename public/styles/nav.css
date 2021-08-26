@@ -31,12 +31,12 @@ ul {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffffb3;
 }
 
 .logo:hover,
 .nav-links:hover {
-  color: rgba(255, 255, 255, 1);
+  color: var(--warmth);
 }
 
 .page {
@@ -45,7 +45,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: var(--black);
   overflow: hidden;
   transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.15);
   -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.15);
