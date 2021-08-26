@@ -9,9 +9,25 @@
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 0;
   margin-left: 5rem;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.first {
+  color: var(--warmth);
+}
+
+.second,
+.third {
+  color: var(--earth);
 }
 
 .main-nav {
@@ -20,7 +36,8 @@
   justify-content: flex-end;
 }
 
-.nav-links {
+.nav-links,
+.nav-links-yrgo {
   margin-right: 5rem;
 }
 
@@ -29,6 +46,7 @@ ul {
 }
 
 .nav-links,
+.nav-links-yrgo,
 .logo {
   text-decoration: none;
   color: #ffffffb3;
@@ -39,11 +57,14 @@ ul {
   color: var(--warmth);
 }
 
+.nav-links-yrgo:hover {
+  color: var(--yrgo);
+}
+
 .page {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   color: var(--black);
   overflow: hidden;
@@ -52,17 +73,19 @@ ul {
 }
 
 #page-1 {
-  padding-bottom: 5vh;
+  flex-direction: column;
+}
+
+#unity-container {
+  margin-top: 40px;
 }
 
 #page-2 {
-  padding-bottom: 5vh;
-  background: rgb(209, 209, 209);
+  justify-content: center;
+  padding-bottom: 3vh;
+  background-color: var(--stone);
 }
 
-#home:target .page#page-1 {
-  transform: translateY(0);
-}
 #about:target .page#page-2 {
   transform: translateY(-100%);
 }
