@@ -316,6 +316,7 @@ MonoBehaviour:
       har luvan h\xF6gt dragen \xF6ver huvudet. N\xE4r han kommer n\xE4rmare stannar
       han till och s\xF6ker kontakt. "
   nextScene: Scene2TheDecision
+  fadeOnFinish: 0
 --- !u!4 &881474034
 Transform:
   m_ObjectHideFlags: 0
@@ -430,28 +431,66 @@ PrefabInstance:
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1337192475379058562, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
-      propertyPath: m_Color.b
+      propertyPath: m_Color.a
+      value: 0.6313726
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3585759900542213827, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+--- !u!1001 &3283274050462920166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1337192475379058562, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
-      propertyPath: m_Color.g
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1337192475379058562, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
-      propertyPath: m_Color.r
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1337192475885096535, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
-      propertyPath: m_Color.b
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1337192475885096535, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
-      propertyPath: m_Color.g
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1337192475885096535, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
-      propertyPath: m_Color.r
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941730, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283274049898941732, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}
+      propertyPath: m_Name
+      value: ScreenFader
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b3e9bbefaf2421442937c0aac177358d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 033908eef0f0e4a4a8878b36bfd7af14, type: 3}

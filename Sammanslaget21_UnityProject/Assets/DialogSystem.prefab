@@ -250,6 +250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speechBox: {fileID: 1337192474551940104}
   nameBox: {fileID: 1337192475653777467}
+  letterWaitTime: 0.015
+  black: {fileID: 0}
 --- !u!1 &1337192474551940106
 GameObject:
   m_ObjectHideFlags: 0

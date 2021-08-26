@@ -12,6 +12,8 @@ public class SceneDialogueManager : MonoBehaviour
     public List<Monologue> dialogues;
     public string nextScene;
 
+    public bool fadeOnFinish;
+
     void Start()
     {
         DialogueSystem.OnFinish += DialogueSystem_OnFinish;
@@ -20,6 +22,16 @@ public class SceneDialogueManager : MonoBehaviour
 
     private void DialogueSystem_OnFinish()
     {
+
+        if (fadeOnFinish)
+        {
+            if (ScreenFader.instance != null)
+            {
+                ScreenFader.instance.FadeToLevel(nextScene);
+                return;
+            }
+        }
+
         SceneManager.LoadScene(nextScene);
 
     }
