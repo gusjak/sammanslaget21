@@ -13,6 +13,7 @@
   --black: #0f0f0f;
   --white: #ffffff;
   --gray: #f6f6f6;
+  --yrgo: #e51336;
 }
 
 @font-face {
@@ -28,6 +29,6 @@
 
 body {
   font-family: 'Lota Grotesque', Helvetica, sans-serif;
-  background: var(--black);
+  background-color: var(--black);
   overflow: hidden;
 }
