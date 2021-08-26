@@ -9,9 +9,25 @@
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 0;
   margin-left: 5rem;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.first {
+  color: var(--warmth);
+}
+
+.second,
+.third {
+  color: var(--earth);
 }
 
 .main-nav {
@@ -49,7 +65,6 @@ ul {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   color: var(--black);
   overflow: hidden;
@@ -58,17 +73,19 @@ ul {
 }
 
 #page-1 {
-  padding-bottom: 5vh;
+  flex-direction: column;
+}
+
+#unity-container {
+  margin-top: 40px;
 }
 
 #page-2 {
-  padding-bottom: 5vh;
-  background-color: var(--secondary-black);
+  justify-content: center;
+  padding-bottom: 3vh;
+  background-color: var(--stone);
 }
 
-#home:target .page#page-1 {
-  transform: translateY(0);
-}
 #about:target .page#page-2 {
   transform: translateY(-100%);
 }
