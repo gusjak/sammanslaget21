@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Lota Grotesque';
-  src: url('/fonts/LotaGrotesqueRegular.otf') format('OpenType');
+  src: url('/public/fonts/LotaGrotesqueRegular.otf') format('OpenType');
 }
 
 * {
