@@ -15,6 +15,7 @@
 }
 
 .title {
+  margin-top: 10px;
   font-size: 26px;
   font-weight: 500;
   text-transform: uppercase;
@@ -76,7 +77,7 @@ ul {
 }
 
 #unity-container {
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 #page-2 {
