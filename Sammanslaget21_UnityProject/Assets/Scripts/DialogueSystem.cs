@@ -21,6 +21,9 @@ public class DialogueSystem : MonoBehaviour
     public TextMeshProUGUI speechBox;
     public TextMeshProUGUI nameBox;
 
+    private Coroutine textScroll;
+    public float letterWaitTime;
+
     private void Awake()
     {
         if (instance != null)
@@ -37,14 +40,10 @@ public class DialogueSystem : MonoBehaviour
 
         sentences.Enqueue("if you read this something went wrong");
 
+        DontDestroyOnLoad(gameObject);
+
     }
 
-    void Start()
-    {
-    }
-
-
-    
     public void StartDialogue(List<Monologue> newDialogues)
     {
 
@@ -111,12 +110,15 @@ public class DialogueSystem : MonoBehaviour
             return;
         }
 
-        speechBox.text = sentences.Dequeue();
-        //string sentence = sentences.Dequeue();
+        //speechBox.text = sentences.Dequeue();
+        string sentence = sentences.Dequeue();
 
-        //StopAllCoroutines();
-        //StartCoroutine(sentence);
+        if(textScroll != null)
+        {
+            StopCoroutine(textScroll);
+        }
 
+        textScroll = StartCoroutine(TypeSentence(sentence));
 
     }
 
@@ -127,8 +129,10 @@ public class DialogueSystem : MonoBehaviour
         foreach (char letter in sentence)
         {
             speechBox.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(letterWaitTime);
         }
 
     }
+
+
 }
