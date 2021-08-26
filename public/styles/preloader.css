@@ -17,18 +17,21 @@
   z-index: 100;
 }
 
-.fade-out {
-  animation: fadeOut ease 5s;
-  -webkit-animation: fadeOut ease 5s;
-  -moz-animation: fadeOut ease 5s;
-  -o-animation: fadeOut ease 5s;
-  -ms-animation: fadeOut ease 5s;
+.fade-in {
+  animation: fadeIn ease-in 5s;
+  -webkit-animation: fadeIn ease-in 5s;
+  -moz-animation: fadeIn ease-in 5s;
+  -o-animation: fadeIn ease-in 5s;
+  -ms-animation: fadeIn ease-in 5s;
 }
-@keyframes fadeOut {
+@keyframes fadeIn {
   0% {
-    opacity: 1;
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
