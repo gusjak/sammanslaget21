@@ -1,0 +1,33 @@
+:root {
+  /* Main color palette */
+  --warmth: #e07c3e;
+  --earth: #686569;
+  --ocean: #009392;
+  --dusk: #005e64;
+
+  /* Complimentary colors */
+  --stone: #cdc7b4;
+  --sun: #f6cd2d;
+
+  /* Standard */
+  --black: #0f0f0f;
+  --white: #ffffff;
+  --gray: #f6f6f6;
+}
+
+@font-face {
+  font-family: 'Lota Grotesque';
+  src: url('/public/fonts/LotaGrotesqueRegular.otf') format('OpenType');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lota Grotesque', Helvetica, sans-serif;
+  background: var(--black);
+  overflow: hidden;
+}
