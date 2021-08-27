@@ -438,7 +438,7 @@ MonoBehaviour:
   - name: "Fr\xE4mling"
     animTrigger: 0
     sentences:
-    - "Urs\xE4kta, hall\xE5? \r\nSkulle jag kunna f\xE5 l\xE5na din mobiltelefon?\r"
+    - "Urs\xE4kta, hall\xE5? \r\nSkulle jag kunna f\xE5 be dig om en snabb tj\xE4nst?"
   nextScene: 
   fadeOnFinish: 0
 --- !u!4 &881474034
