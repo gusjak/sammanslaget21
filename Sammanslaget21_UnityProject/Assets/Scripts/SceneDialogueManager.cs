@@ -20,7 +20,7 @@ public class SceneDialogueManager : MonoBehaviour
         DialogueSystem.instance.StartDialogue(dialogues);
     }
 
-    private void DialogueSystem_OnFinish()
+    public void DialogueSystem_OnFinish()
     {
 
         if (fadeOnFinish)
@@ -54,6 +54,15 @@ public class SceneDialogueManager : MonoBehaviour
 
     public void DecideNewScene(string newScene)
     {
+        if (fadeOnFinish)
+        {
+            if (ScreenFader.instance != null)
+            {
+                ScreenFader.instance.FadeToLevel(newScene);
+                return;
+            }
+        }
+
         SceneManager.LoadScene(newScene);
 
     }

@@ -513,20 +513,18 @@ MonoBehaviour:
     animTrigger: 0
     sentences:
     - "Den andre verkar ha br\xE5ttom. Men om du vill inte stanna ute hela natten.
-      Personen \xE4r p\xE5 v\xE4g \xE5t andra h\xE5llet men du g\xE5r snabbt fram
-      till honom.\r\n\r\n"
+      Personen \xE4r p\xE5 v\xE4g \xE5t andra h\xE5llet men du g\xE5r snabbt fram.\r\n\r\n"
   - name: 'Du:'
     animTrigger: 0
     sentences:
-    - "Urs\xE4kta, hall\xE5? \r\nSkulle jag kunna f\xE5 l\xE5na din mobiltelefon?\r\n"
+    - "Urs\xE4kta, hall\xE5? \r\nSkulle jag kunna f\xE5 be dig om en snabb tj\xE4nst?\n"
   - name: 
     animTrigger: 1
     sentences:
-    - "Inget svar. Mannen tittar ist\xE4llet ner i marken och \xF6kar farten p\xE5
-      sina steg n\xE4r han m\xE4rker att du s\xF6ker kontakt. \n"
-    - "Du ropar efter honom men han v\xE4nder sig inte om. Han lyfter ist\xE4llet
-      handen f\xF6r att h\xE5lla h\xE5rdare om sin v\xE4ska, och skyndar iv\xE4g.
-      \r"
+    - "Inget svar. Fr\xE4mlingen tittar ist\xE4llet ner i marken och \xF6kar farten
+      p\xE5 sina steg n\xE4r hen m\xE4rker att du s\xF6ker kontakt. \n"
+    - "Du ropar men hen v\xE4nder sig inte om. Hen lyfter ist\xE4llet handen f\xF6r
+      att h\xE5lla h\xE5rdare om sin v\xE4ska, och skyndar iv\xE4g. \r"
   nextScene: Scene2TheDecision
   fadeOnFinish: 1
 --- !u!4 &881474034
