@@ -109,16 +109,27 @@
 
 .social-links a,
 .social-links-column a {
-  font-size: 30px;
-  color: var(--black);
+  font-size: 32px;
+  color: var(--warmth);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
 .social-links a:hover,
 .social-links-column a:hover {
+  color: var(--softblack);
+  transform: scale(1.35);
+}
+
+#page-2 .program-link {
   color: var(--warmth);
-  transform: scale(1.25);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+#page-2 .program-link:hover {
+  color: var(--softblack);
 }
 
 .scale {
