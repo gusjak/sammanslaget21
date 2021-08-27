@@ -389,7 +389,7 @@ MonoBehaviour:
     animTrigger: 0
     sentences:
     - "\t\t\t\t\t\tTack f\xF6r att ni spelade!"
-  nextScene: 
+  nextScene: JockesTestScene
   fadeOnFinish: 1
 --- !u!4 &881474034
 Transform:

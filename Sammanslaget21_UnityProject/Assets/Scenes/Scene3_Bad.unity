@@ -510,7 +510,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 503ec9a169560a64da11b0fc5635ce59, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0296e8b345e06a4cb9e206930557dbf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -556,9 +556,9 @@ MonoBehaviour:
     sentences:
     - "Du tittar ner i marken och \xF6kar farten p\xE5 dina steg. Fr\xE4mlingen ropar
       efter dig men du v\xE4nder dig inte om.\n"
-    - " Du lyfter handen f\xF6r att ta av dig din ryggs\xE4ck och inser i samma stund
+    - "Du lyfter handen f\xF6r att ta av dig din ryggs\xE4ck och inser i samma stund
       att du inte har den p\xE5 dig. Du m\xE5ste gl\xF6mt den p\xE5 restaurangen."
-    - " I ryggs\xE4cken l\xE5g din mobiltelefon och dina hemnycklar. P\xE5 ditt armbandsur
+    - "I ryggs\xE4cken l\xE5g din mobiltelefon och dina hemnycklar. P\xE5 ditt armbandsur
       visar klockan halv tolv. Ingen id\xE9 att g\xE5 tillbaks, restaurangen \xE4r
       st\xE4ngd. \r"
   - name: 
@@ -567,14 +567,14 @@ MonoBehaviour:
     - "Det b\xF6rjar regna. Ditt paraply l\xE5g \xE4ven det i ryggs\xE4cken. \n"
     - "Du drar jackans huva \xF6ver huvudet. G\xF6teborgsregnet kommer snabbt och
       kraftigt."
-    - " Dina kl\xE4der \xE4r genombl\xF6ta. Du g\xE5r tillbaka upp p\xE5 gatan igen.
+    - "Dina kl\xE4der \xE4r genombl\xF6ta. Du g\xE5r tillbaka upp p\xE5 gatan igen.
       Den \xE4r tom.\r"
   - name: 
     animTrigger: 1
     sentences:
-    - "Men d\xE4r! En man kommer g\xE5ende mot dig! Som tur \xE4r ser han sn\xE4ll
+    - "Men d\xE4r! En person kommer g\xE5ende mot dig! Som tur \xE4r ser hen sn\xE4ll
       och v\xE4lv\xE5rdad ut. Det \xE4r s\xE4kert en person som skulle kunna hj\xE4lpa.
-      Du g\xE5r snabbt mot honom.\r\n"
+      Du g\xE5r snabbt mot personen.\r\n"
   nextScene: Scene4_Bad
   fadeOnFinish: 0
 --- !u!4 &881474034

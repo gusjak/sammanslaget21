@@ -524,8 +524,9 @@ MonoBehaviour:
   - name: 
     animTrigger: 1
     sentences:
-    - "Titta d\xE4r! En fr\xE4mmande man kommer g\xE5ende mot dig. N\xE4r personen
-      kommer n\xE4rmare stannar hen till och s\xF6ker kontakt. "
+    - "Titta d\xE4r! En fr\xE4mmande person kommer g\xE5ende mot dig. Du upplever
+      inte personen som hotfull. N\xE4r personen kommer n\xE4rmare stannar hen till
+      och s\xF6ker kontakt. "
   nextScene: Scene2TheDecision
   fadeOnFinish: 0
 --- !u!4 &881474034
