@@ -7,13 +7,14 @@
 
   /* Complimentary colors */
   --stone: #cdc7b4;
+  --stonevariant: #e1e2dc;
   --sun: #f6cd2d;
 
   /* Standard */
   --black: #000000;
-  --secondary-black: #252525;
-  --white: #ffffff;
-  --gray: #f6f6f6;
+  --softblack: #222222;
+  --white: #f0f0f0;
+  --gray: #ffffff;
   --yrgo: #e51336;
 }
 
@@ -32,4 +33,49 @@ body {
   font-family: 'Lota Grotesque', Helvetica, sans-serif;
   background-color: var(--black);
   overflow: hidden;
+}
+
+canvas {
+  width: 100vw;
+  height: calc(100vw * 9 / 16);
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 600px) {
+  canvas {
+    width: 80vw;
+    height: calc(80vw * 9 / 16);
+  }
+}
+
+#unity-mobile-warning {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+  background: white;
+  padding: 10px;
+  display: none;
+  z-index: 2;
+}
+
+#unity-loading-bar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#unity-progress-bar-empty {
+  width: 141px;
+  height: 18px;
+  margin-top: 10px;
+  background-color: var(--earth);
+}
+#unity-progress-bar-full {
+  width: 0%;
+  height: 18px;
+  margin-top: 10px;
+  background-color: var(--warmth);
 }

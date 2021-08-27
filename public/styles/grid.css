@@ -43,7 +43,7 @@
 
 .front {
   z-index: 1;
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,17 +94,29 @@
 .social-links {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-.social-links a {
+.social-links-column {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.cursor {
+  cursor: text;
+}
+
+.social-links a,
+.social-links-column a {
   font-size: 30px;
   color: var(--black);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+.social-links-column a:hover {
   color: var(--warmth);
   transform: scale(1.25);
 }

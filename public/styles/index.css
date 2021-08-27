@@ -1,0 +1,105 @@
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  background-color: var(--black);
+}
+
+.logo {
+  font-size: 40px;
+  margin-top: 0;
+  margin-left: 5rem;
+}
+
+.loading-text {
+  color: var(--white);
+}
+
+.first {
+  color: var(--warmth);
+}
+
+.second {
+  color: var(--earth);
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-links,
+.nav-links-yrgo,
+.nav-links-github {
+  margin-right: 5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-links,
+.nav-links-yrgo,
+.nav-links-github,
+.logo {
+  text-decoration: none;
+  color: #ffffffb3;
+}
+
+.logo:hover,
+.nav-links:hover {
+  color: var(--warmth);
+}
+
+.nav-links-yrgo:hover {
+  color: var(--yrgo);
+}
+
+.nav-links-github:hover {
+  color: #9370d8;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  overflow: hidden;
+  transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+#page-1 {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page-2 {
+  justify-content: center;
+  padding-bottom: 3vh;
+  background-color: var(--softblack);
+}
+
+#page-3 {
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--gray);
+  text-align: center;
+}
+
+#home:target .page#page-1 {
+  transform: translateY(0);
+}
+
+#about:target .page#page-2 {
+  transform: translateY(-100%);
+}
+
+#faq:target .page#page-3 {
+  transform: translateY(-200%);
+}
