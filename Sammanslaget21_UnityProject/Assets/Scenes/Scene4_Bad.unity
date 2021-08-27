@@ -402,7 +402,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 503ec9a169560a64da11b0fc5635ce59, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0296e8b345e06a4cb9e206930557dbf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -512,8 +512,8 @@ MonoBehaviour:
   - name: 
     animTrigger: 0
     sentences:
-    - "Den andre verkar ha br\xE5ttom. Men om du vill inte stanna ute hela natten.
-      Personen \xE4r p\xE5 v\xE4g \xE5t andra h\xE5llet men du g\xE5r snabbt fram.\r\n\r\n"
+    - "Den andre verkar ha br\xE5ttom. Men du vill inte stanna ute hela natten. Personen
+      \xE4r p\xE5 v\xE4g \xE5t andra h\xE5llet men du g\xE5r snabbt fram.\r"
   - name: 'Du:'
     animTrigger: 0
     sentences:
@@ -525,7 +525,7 @@ MonoBehaviour:
       p\xE5 sina steg n\xE4r hen m\xE4rker att du s\xF6ker kontakt. \n"
     - "Du ropar men hen v\xE4nder sig inte om. Hen lyfter ist\xE4llet handen f\xF6r
       att h\xE5lla h\xE5rdare om sin v\xE4ska, och skyndar iv\xE4g. \r"
-  nextScene: Scene2TheDecision
+  nextScene: Scene2TheDecision2
   fadeOnFinish: 1
 --- !u!4 &881474034
 Transform:
